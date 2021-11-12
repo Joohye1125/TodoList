@@ -13,6 +13,7 @@
 		FA801FD9273E9A66009C3BD1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA801FD7273E9A66009C3BD1 /* Main.storyboard */; };
 		FA801FDB273E9A67009C3BD1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA801FDA273E9A67009C3BD1 /* Assets.xcassets */; };
 		FA801FDE273E9A67009C3BD1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA801FDC273E9A67009C3BD1 /* LaunchScreen.storyboard */; };
+		FA801FE6273EA04C009C3BD1 /* TodoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA801FE5273EA04C009C3BD1 /* TodoCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		FA801FDA273E9A67009C3BD1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FA801FDD273E9A67009C3BD1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FA801FDF273E9A67009C3BD1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA801FE5273EA04C009C3BD1 /* TodoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				FA801FD1273E9A66009C3BD1 /* AppDelegate.swift */,
 				FA801FD3273E9A66009C3BD1 /* SceneDelegate.swift */,
 				FA801FD5273E9A66009C3BD1 /* ViewController.swift */,
+				FA801FE5273EA04C009C3BD1 /* TodoCell.swift */,
 				FA801FD7273E9A66009C3BD1 /* Main.storyboard */,
 				FA801FDA273E9A67009C3BD1 /* Assets.xcassets */,
 				FA801FDC273E9A67009C3BD1 /* LaunchScreen.storyboard */,
@@ -93,6 +96,9 @@
 		FA801FC6273E9A66009C3BD1 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				KnownAssetTags = (
+					"Strike Through View",
+				);
 				LastSwiftUpdateCheck = 1250;
 				LastUpgradeCheck = 1250;
 				TargetAttributes = {
@@ -139,6 +145,7 @@
 			files = (
 				FA801FD6273E9A66009C3BD1 /* ViewController.swift in Sources */,
 				FA801FD2273E9A66009C3BD1 /* AppDelegate.swift in Sources */,
+				FA801FE6273EA04C009C3BD1 /* TodoCell.swift in Sources */,
 				FA801FD4273E9A66009C3BD1 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
